@@ -23,11 +23,40 @@ app.listen(3000, () => console.log('Express server is running at port 3000'));
 
 
 // get all
-app.get('/employees', (res, req) => {
-   mysqlConnection.query('SELECT * FROM employee', (err, rows, field) => {
-       if(!err)
-           console.log(rows);
-       else
-           console.log(err);
-   })
+app.get('/employees', (req, res) => {
+    mysqlConnection.query('SELECT * FROM employee', (err, rows, field) => {
+        if(!err){
+        // console.log(rows);
+        res.send(rows);
+        }
+        else{
+        console.log(err);
+        }
+    })
+});
+
+
+// get by id
+app.get('/employees/:id', (req, res) => {
+    mysqlConnection.query('SELECT * FROM employee WHERE id = ?', [req.params.id], (err, rows, field) => {
+        if(!err){
+            console.log(rows);
+            res.send(rows);
+        }
+        else{
+            console.log(err);
+        }
+    })
+});
+
+// delete by id
+app.get('/employees/:id', (req, res) => {
+    mysqlConnection.query('DELETE FROM employee WHERE id = ?', [req.params.id], (err, rows, field) => {
+        if(!err){
+            res.send('Deleted successfully');
+        }
+        else{
+            console.log(err);
+        }
+    })
 });
