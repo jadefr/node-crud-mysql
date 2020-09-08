@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="637f5f3f-309a-4418-835b-5a629b66844c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
@@ -34,7 +33,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.31873727" />
     <property name="ts.external.directory.path" value="C:\Users\jadef\AppData\Local\JetBrains\Toolbox\apps\WebStorm\ch-0\202.6948.73\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -47,7 +46,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599507414800</updated>
-      <workItem from="1599507416420" duration="4963000" />
+      <workItem from="1599507416420" duration="7222000" />
     </task>
     <servers />
   </component>
@@ -63,10 +62,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="452" y="59" key="Github.UntrackedFilesDialog/0.0.1366.728/-1680.-287.1680.1010@0.0.1366.728" timestamp="1599513299060" />
-    <state x="184" y="8" key="SettingsEditor" timestamp="1599521266090">
+    <state x="184" y="8" key="SettingsEditor" timestamp="1599522428179">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="8" key="SettingsEditor/0.0.1366.728/-1680.-287.1680.1010@0.0.1366.728" timestamp="1599521266090" />
+    <state x="184" y="8" key="SettingsEditor/0.0.1366.728/-1680.-287.1680.1010@0.0.1366.728" timestamp="1599522428179" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1599522440857">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1680.-287.1680.1010@0.0.1366.728" timestamp="1599522440857" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1599521198450">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
