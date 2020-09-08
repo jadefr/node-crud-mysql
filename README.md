@@ -5,14 +5,14 @@ Esta aplicação consiste em um CRUD (i.e., criar, consultar, atualizar e deleta
 
 Inexistente a camada de serviço, as operações são feitas diretamente no banco.
 
-# Pacotes
+## Pacotes
 
 * express
 * mysql
 * body-parser
 * nodemon
 
-# Script MySQL
+## Script MySQL
 
 		CREATE DATABASE employeedb;
 
@@ -25,3 +25,13 @@ Inexistente a camada de serviço, as operações são feitas diretamente no banc
 		    PRIMARY KEY (ID)
 		) ENGINE = InnoDB
 		  DEFAULT CHARSET = utf8;
+
+## Rotas
+
+| HTTP  |  URI | 
+| ------------- | ------------- | 
+| GET  | localhost:3000/v1/employees/  |
+| GET  | localhost:3000/v1/employees/{id}  |
+| POST | localhost:3000/v1/employees/  | 
+| PUT  | localhost:3000/v1/employees/{id}  | 
+| DELETE  | localhost:3000/v1/employees/{id}  | 
