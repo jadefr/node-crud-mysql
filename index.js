@@ -60,3 +60,16 @@ app.delete('/v1/employees/:id', (req, res) => {
         }
     })
 });
+
+// post
+app.post('/v1/employees', (req, res) => {
+    let data = {name: req.body.name, emp_code: req.body.emp_code, salary: req.body.salary}
+    mysqlConnection.query('INSERT INTO employee SET ?', data, (err, rows, field) => {
+        if(!err){
+            res.send(rows);
+        }
+        else{
+            console.log(err);
+        }
+    })
+});
