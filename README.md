@@ -35,3 +35,33 @@ Inexistente a camada de serviço, as operações são feitas diretamente no banc
 | POST | localhost:3000/v1/employees/  | 
 | PUT  | localhost:3000/v1/employees/{id}  | 
 | DELETE  | localhost:3000/v1/employees/{id}  | 
+
+## cURL
+
+Tem-se abaixo exemplos de CURLs
+
+### get all
+
+		curl --location --request GET 'localhost:3000/v1/employees/'
+
+### get by id
+
+		curl --location --request GET 'localhost:3000/v1/employees/2'
+
+### post
+		curl --location --request POST 'localhost:3000/v1/employees' \
+		--header 'Content-Type: application/json' \
+		--data-raw '{
+    			"name": "Tiago",
+    			"emp_code": "EMP100",
+    			"salary": "5420"
+		}'
+
+### put
+		curl --location --request PUT 'localhost:3000/v1/employees/3' \
+		--header 'Content-Type: application/json' \
+		--data-raw '{
+    			"name": "João",
+    			"emp_code": "EMP95",
+    			"salary": "10000"
+		}'
