@@ -65,3 +65,6 @@ Tem-se abaixo exemplos de CURLs
     			"emp_code": "EMP95",
     			"salary": "10000"
 		}'
+		
+### delete
+		curl --location --request DELETE 'localhost:3000/v1/employees/7'
